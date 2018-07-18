@@ -1,0 +1,19 @@
+{
+  "name": "reduxbabylon",
+  "version": "1.0.0",
+  "description": "Babylon managed with Redux",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -d --watch",
+    "start": "nodemon server/index.js"
+  },
+  "author": "Dan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "redux": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0"
+  }
+}
